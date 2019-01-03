@@ -1,6 +1,6 @@
 biocWithGenomeData/*.tar.gz
 trenaBase/packages/*.tar.gz
-trenaLatest/packages/*.tar.gz
+trenaCurrent/packages/*.tar.gz
 
 
 # History files
