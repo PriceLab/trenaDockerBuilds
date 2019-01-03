@@ -1,3 +1,8 @@
+biocWithGenomeData/*.tar.gz
+trenaBase/packages/*.tar.gz
+trenaLatest/packages/*.tar.gz
+
+
 # History files
 .Rhistory
 .Rapp.history
