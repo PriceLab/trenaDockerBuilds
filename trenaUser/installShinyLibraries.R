@@ -6,7 +6,12 @@ biocGet <- function(pkgs){
 
 code.pkgs <- c("shiny",
                "shinyjs",
-               "shinydashboard")
+               "shinydashboard",
+               "colourpicker",
+               "DT",
+               "htmlwidgets",
+               "later"
+               )
 
 for(code.pkg in code.pkgs){
    suppressWarnings(
