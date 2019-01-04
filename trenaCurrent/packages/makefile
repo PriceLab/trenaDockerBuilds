@@ -1,4 +1,4 @@
-all:  motifDb  trena  igvShiny  cyjShiny trenaSGM trenaViz
+all:  motifDb  trena  igvShiny  cyjShiny trenaSGM
 
 motifDb:
 	- rm MotifDb_*tar.gz
