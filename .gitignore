@@ -3,6 +3,9 @@ trenaBase/packages/*.tar.gz
 trenaCurrent/packages/*.tar.gz
 trenaVizBrain/packages/*.tar.gz
 
+fimo/__pycache__/
+fimo/meme-5.0.3.tar.gz
+
 
 # History files
 .Rhistory
