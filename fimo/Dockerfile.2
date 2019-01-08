@@ -1,0 +1,11 @@
+FROM pshannon/fimo-conda
+USER root
+RUN /opt/conda/bin/pip install pandas
+RUN /opt/conda/bin/pip install zmq
+USER fimo
+WORKDIR /home/fimo
+COPY pfms/* /home/fimo/pfms/
+COPY *.py /home/fimo/
+
+
+
