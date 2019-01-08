@@ -1,3 +1,3 @@
 library(TrenaViz)
-tv <- TrenaViz("TrenaProjectIGAP")
+tv <- TrenaViz("TrenaProjectAD")
 app <- createApp(tv, port=3838)
