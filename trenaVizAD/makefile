@@ -11,7 +11,7 @@ detach:
 	docker run --detach --rm --publish 60051:3838 pshannon/trenavizad R -f tvAD.R
 
 logs:
-	docker logs `docker ps | grep tvAD | awk '{print $$1}'`
+	docker logs --follow `docker ps | grep tvAD | awk '{print $$1}'`
 
 kill:
 	docker kill `docker ps | grep tvAD | awk '{print $$1}'`
