@@ -1,14 +1,14 @@
-all:  trenaProject trenaProjectIGAP trenaViz
+all:  trenaProject trenaProjectAD trenaViz
 
 trenaProject:
 	- rm TrenaProject_*tar.gz
 	(cd ~/github/TrenaProject; git pull)
 	R CMD build --no-build-vignettes ~/github/TrenaProject
 
-trenaProjectIGAP:
-	- rm TrenaProjectIGAP_*tar.gz
-	(cd ~/github/TrenaProjectIGAP; git pull)
-	R CMD build --no-build-vignettes ~/github/TrenaProjectIGAP
+trenaProjectAD:
+	- rm TrenaProjectAD_*tar.gz
+	(cd ~/github/TrenaProjectAD; git pull)
+	R CMD build --no-build-vignettes ~/github/TrenaProjectAD
 
 trenaViz:
 	- rm TrenaViz_*tar.gz
