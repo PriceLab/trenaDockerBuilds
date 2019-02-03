@@ -1,7 +1,7 @@
 printf <- function(...) print(noquote(sprintf(...)))
 biocGet <- function(pkgs){
    library(BiocManager)
-   BiocManager::install(pkgs)
+   BiocManager::install(pkgs, update=FALSE)
    }
 
 
@@ -31,7 +31,13 @@ code.pkgs <- c("GenomicRanges",
                "htmlwidgets",
                "later",
                "splitstackshape",
-               "RUnit")
+               "RUnit",
+               "ggseqlogo",
+               "universalmotif",
+               "DirichletMultinomial",
+               "TFBSTools",
+               "motifmatchr"
+               )
 
 for(code.pkg in code.pkgs){
    suppressWarnings(
