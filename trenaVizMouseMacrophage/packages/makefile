@@ -1,4 +1,4 @@
-all:  trenaProject trenaProjectAD trenaProjectMouseMacrophage trenaViz
+all:  trenaProject trenaProjectMouseMacrophage trenaViz
 
 trenaProject:
 	- rm TrenaProject_*tar.gz

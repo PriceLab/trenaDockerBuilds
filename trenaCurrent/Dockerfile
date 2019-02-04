@@ -9,3 +9,4 @@ RUN R CMD INSTALL --no-test-load /tmp/trena_*.tar.gz
 RUN R CMD INSTALL --no-test-load /tmp/trenaSGM_*.tar.gz
 RUN R CMD INSTALL --no-test-load /tmp/cyjShiny_*.tar.gz
 RUN R CMD INSTALL --no-test-load /tmp/igvShiny_*.tar.gz
+RUN rm /tmp/*.tar.gz
