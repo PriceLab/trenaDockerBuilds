@@ -3,6 +3,8 @@ trenaBase/packages/*.tar.gz
 trenaCurrent/packages/*.tar.gz
 trenaVizAD/packages/*.tar.gz
 trenaVizPlacenta/packages/*.tar.gz
+trenaVizMouseMacrophage/packages/*.tar.gz
+
 
 fimo/__pycache__/
 fimo/meme-5.0.3.tar.gz

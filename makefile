@@ -1,6 +1,5 @@
 shared: trenaBaseDir trenaCurrentDir trenaUserDir
 
-
 trenaBaseDir:
 	(cd trenaBase; make)
 
@@ -10,3 +9,4 @@ trenaCurrentDir:
 
 trenaUserDir:
 	(cd trenaUser; make)
+

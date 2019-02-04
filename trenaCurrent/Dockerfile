@@ -1,5 +1,6 @@
 FROM pshannon/trenabase:latest
 USER root
+RUN apt-get install libv8-3.14-dev -y
 COPY installShinyLibraries.R .
 RUN R -f ./installShinyLibraries.R
 COPY packages/*gz /tmp/

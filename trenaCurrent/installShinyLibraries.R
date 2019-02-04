@@ -5,6 +5,7 @@ biocGet <- function(pkgs){
    }
 
 code.pkgs <- c("shiny",
+               "V8",
                "shinyjs",
                "shinydashboard")
 
