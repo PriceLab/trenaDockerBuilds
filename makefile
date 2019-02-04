@@ -1,14 +1,12 @@
-shared: pullFromGit trenaBase trenaCurrent trenaUser
+shared: trenaBaseDir trenaCurrentDir trenaUserDir
 
-pullFromGit:
-	git pull
 
-trenaBase:
+trenaBaseDir:
 	(cd trenaBase; make)
 
-trenaCurrent:
+trenaCurrentDir:
 	(cd trenaCurrent/packages; make)
 	(cd treanCurrent; make)
 
-trenaUser:
+trenaUserDir:
 	(cd trenaUser; make)
