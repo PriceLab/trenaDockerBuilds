@@ -17,6 +17,6 @@ trenaProjectMouseMacrophage:
 
 trenaViz:
 	- rm TrenaViz_*tar.gz
-	(cd ~/github/TrenaViz; git pull)
+	(cd ~/github/TrenaViz; git pull origin motifSelectionAndMatching)
 	R CMD build --no-build-vignettes ~/github/TrenaViz
 
