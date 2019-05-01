@@ -1,4 +1,4 @@
-FROM pshannon/trenabase:latest
+FROM trenabase:30apr2019
 USER root
 RUN apt-get install libv8-3.14-dev -y
 COPY installShinyLibraries.R .

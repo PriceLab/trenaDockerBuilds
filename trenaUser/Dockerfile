@@ -1,4 +1,4 @@
-FROM pshannon/trenacurrent:latest
+FROM trenacurrent:30apr2019
 USER root
 RUN useradd -ms /bin/bash trena
 WORKDIR /home/trena

@@ -2,7 +2,7 @@ all:  motifDb  trena  igvShiny  cyjShiny trenaSGM
 
 motifDb:
 	- rm MotifDb_*tar.gz
-	(cd ~/github/MotifDb; git pull)
+	(cd ~/github/MotifDb; git pull bioc master)
 	R CMD build --no-build-vignettes ~/github/MotifDb
 
 trena:
