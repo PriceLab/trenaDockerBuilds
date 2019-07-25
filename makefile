@@ -1,4 +1,7 @@
-shared: trenaBaseDir trenaCurrentDir trenaUserDir  trenaVizADDir
+shared: bioc trenaBaseDir trenaCurrentDir trenaUserDir  trenaVizADDir
+
+bioc:
+	(cd biocWithGenomeData; make)
 
 trenaBaseDir:
 	(cd trenaBase; make)
