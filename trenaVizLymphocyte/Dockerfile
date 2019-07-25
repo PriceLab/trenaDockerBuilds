@@ -4,7 +4,7 @@ COPY packages/*gz ./
 COPY tv.R ./
 RUN R CMD INSTALL --no-test-load  TrenaProject_*.tar.gz
 RUN R CMD INSTALL --no-test-load  TrenaProjectHG38_*.tar.gz
-RUN R CMD INSTALL --no-test-load  TrenaProjectLymphoctye_*.tar.gz
+RUN R CMD INSTALL --no-test-load  TrenaProjectLymphocyte_*.tar.gz
 RUN R CMD INSTALL --no-test-load  TrenaViz_*.tar.gz
 user trena
 EXPOSE 3838
